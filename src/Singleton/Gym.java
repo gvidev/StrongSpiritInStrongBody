@@ -13,7 +13,7 @@ public class Gym {
 
     private Gym(){
         this.name = "Titan";
-        this.address = "bul.Bulgaria 24, Plovdiv Bulgaria";
+        this.address = "bul.Bulgaria 24, Plovdiv Bulgaria2";
         this.capacity = 60;
         this.pricePerWorkout = 4.50;
     }
