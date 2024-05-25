@@ -23,7 +23,7 @@ public final class HelpMethods {
                 " My weight is " + person.getWeight() + " kilograms." +
                 " I work as an instructor in "
                 + person.getGym().getName()+ " gym and " +
-                "I train " +person.getGymRatsCount() + " folks.");
+                "I train " +person.getGymFollows().size() + " folks.");
     }
 
     public static void PrintInfo(GymRat person){

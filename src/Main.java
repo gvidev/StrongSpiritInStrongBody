@@ -24,6 +24,10 @@ public class Main {
                 new GymRat("Vurban",19, 90.5,gym);
         gymRat.PrintPersonInfo();
 
+        instructor.subscribe(gymRat);
+        instructor.notifyObservers();
+
+
 
 
     }
