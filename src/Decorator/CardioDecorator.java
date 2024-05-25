@@ -7,6 +7,7 @@ Created by georgi on date 25.5.2024 г.
 
 import Strategy.TrainingProgram;
 
+//we can easily modify our training programs with some cardio
 public class CardioDecorator extends TrainingProgramDecorator {
 
     private String exercise;

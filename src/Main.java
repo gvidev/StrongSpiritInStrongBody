@@ -6,7 +6,7 @@ Created by georgi on date 21.5.2024 г.
 */
 
 import Decorator.CardioDecorator;
-import Decorator.StrenghDecorator;
+import Decorator.StrengthDecorator;
 import Observer.GymRat;
 import Observer.Instructor;
 import Singleton.Gym;
@@ -49,7 +49,7 @@ public class Main {
         instructor.setTrainingProgram(totalBodyP);
         instructor.setTrainingProgram(lowerBodyP);
         System.out.println();
-        totalBodyP = new StrenghDecorator(totalBodyP, "push-ups");
+        totalBodyP = new StrengthDecorator(totalBodyP, "push-ups");
         totalBodyP.workout();
 
         gymRat1.setTrainingProgram(totalBodyP);

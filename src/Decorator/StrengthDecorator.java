@@ -7,11 +7,13 @@ Created by georgi on date 25.5.2024 г.
 
 import Strategy.TrainingProgram;
 
-public class StrenghDecorator extends TrainingProgramDecorator {
+
+//we can easily modify our training programs with some strength exercises
+public class StrengthDecorator extends TrainingProgramDecorator {
 
     private String exercise;
 
-    public StrenghDecorator(TrainingProgram decoratedOne, String exercise) {
+    public StrengthDecorator(TrainingProgram decoratedOne, String exercise) {
         super(decoratedOne);
         this.exercise = exercise;
     }
