@@ -41,6 +41,9 @@ public class GymRat extends Person implements IObserver {
     @Override
     public void setInstructor(IObservable instructor) {
         this.instructor = instructor;
+        if (instructor == null){
+            return;
+        }
         //at first the trainee has the same training program as his instructor
         this.trainingProgram = this.instructor.getTrainingProgram();
     }
