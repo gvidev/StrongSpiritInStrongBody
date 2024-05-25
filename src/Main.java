@@ -9,6 +9,9 @@ import Observer.GymRat;
 import Observer.HelpMethods;
 import Observer.Instructor;
 import Singleton.Gym;
+import Strategy.LowerBodyTrainingP;
+import Strategy.TotalBodyTrainingP;
+import Strategy.TrainingProgram;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +28,13 @@ public class Main {
         gymRat.PrintPersonInfo();
 
         instructor.subscribe(gymRat);
-        instructor.notifyObservers();
+        gym.getTrainingProgram().workout();
+
+        TrainingProgram totalBodyP = new TotalBodyTrainingP();
+        TrainingProgram lowerBodyP = new LowerBodyTrainingP();
+        instructor.setTrainingProgram(totalBodyP);
+        instructor.setTrainingProgram(lowerBodyP);
+
 
 
 

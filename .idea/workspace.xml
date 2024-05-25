@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c5738a-8591-4071-8a03-21d4eeccaa7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Strategy/HighIntensityTrainingP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/LowerBodyTrainingP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/TotalBodyTrainingP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/UpperBodyTrainingP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Observer/GymRat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/GymRat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Observer/HelpMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/HelpMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Observer/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/IObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/IObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/IObservable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Observer/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/Gym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Gym.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/TrainingProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/TrainingProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +80,7 @@
       <updated>1716325035210</updated>
       <workItem from="1716325036383" duration="2134000" />
       <workItem from="1716439658798" duration="10912000" />
-      <workItem from="1716525856583" duration="3814000" />
+      <workItem from="1716525856583" duration="9187000" />
     </task>
     <servers />
   </component>
@@ -85,7 +92,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Observer/GymRat.java</url>
-          <line>23</line>
+          <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

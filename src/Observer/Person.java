@@ -7,6 +7,9 @@ Created by georgi on date 23.5.2024 г.
 
 import Singleton.Gym;
 
+
+//this is abstract class that I simply use for all the same
+//properties and needed methods in my child classes
 public abstract class Person {
 
     private String name;

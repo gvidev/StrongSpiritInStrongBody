@@ -5,6 +5,8 @@ Project name StrongSpiritInStrongBody
 Created by georgi on date 23.5.2024 г.
 */
 
+
+
 //this is a help class for all my static methods
 
 //the final keyword help us with
